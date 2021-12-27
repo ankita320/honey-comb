@@ -1,0 +1,60 @@
+# honey-comb
+This is my group final project for kwk: web dev
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="shareyourstories.css" rel="stylesheet" type="text/css" />
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<a href="./index.html"><img class="Icon" src="Honeycomb Icon.jpg" height= "60"</a>
+  </header>
+    <a href="./index.html"><img class="Logo" src="Honeycomb Logo.jpg" alt="Honeycomb's Logo" height= "190px"></a>
+    <h1><em>"Buzzing for Impact. Passion. Empowerment."</em></h1>
+    
+  <nav>
+    <a href="./index.html"><button class="Home">Home</button></a>
+    <a href="./aboutus.html"><button class="AboutUs">About us</button></a>
+    <a href="information.html"><button class="Information">Information</button></a>
+
+    <div class= "dropdown">
+
+    <a href="resources.html"><button
+    class="Resources">Resources</button></a>
+
+    <div class="dropdown-content">
+
+      <a href="./resources.html#oppWomen">Opportunities for Women</a>
+
+				<a href="./resources.html#oppGeneral">Opportunities for General Audience</a>
+       </div></div> 
+       
+    <a href="./shareyourstories.html"><button class="shareyourstories">How can I help?</button></a>
+  </nav>
+
+
+
+    <section class= "userinput">
+    <h2><strong>Have some feedback for us? An opportunity you want to add to the list? A story you want to share?</strong></h2>
+    </section>
+    
+    <section>
+    <input class="text-input" type="text"></input>
+    <button class="submit-btn">Submit</button>
+    </section>
+
+    
+
+
+    <script src="./shareyourstories.js"></script>
+  </body>
+</html>
